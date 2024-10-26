@@ -1,0 +1,23 @@
+{
+  "name": "slidev",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open --remote",
+    "export:pdf": "slidev export",
+    "export:powerpoint": "slidev export --format pptx",
+    "export:markdown": "slidev export --format md",
+    "export:png": "slidev export --format png",
+    "start": "slidev start",
+    "serve": "slidev serve",
+    "pdf": "slidev pdf",
+    "eject" : "slidev theme eject"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.50.0-beta.4",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "vue": "^3.5.12"
+  }
+}
